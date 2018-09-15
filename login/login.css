@@ -25,6 +25,22 @@
 /*
     Give these classes to your parent <div> tag
 */
+
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
 .front {
     background: #99ccff;
     border-radius: 10px;
