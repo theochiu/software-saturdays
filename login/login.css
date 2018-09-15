@@ -1,0 +1,36 @@
+/*
+    https://getbootstrap.com/docs/4.0/getting-started/introduction/
+    Original background from slides: #99ccff
+*/
+
+[class*="col-"] {
+    background-color: inherit;
+    border: none;
+}
+
+/*
+    This is mostly to show you one of
+    the dimension types in addition
+    to px, %, or others like em
+
+    The element with an id of 'login'
+    would be the full view width wide
+    and the full view width tall
+#login {
+    width: 100vw;
+    height: 100vh;
+}
+*/
+
+/*
+    Give these classes to your parent <div> tag
+*/
+.front {
+    background: #99ccff;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.vert-center {
+    margin-top: 30vh;
+}
